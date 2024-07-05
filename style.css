@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 0;
+}
+.col{
+    display:flex;
+    flex-grow: 1;
+    align-items:stretch;
+    flex-direction: column;
+    border:0;
+}
+.row{
+    flex-grow: 1;
+    border: 1px solid red;
+    
+}
+.row:hover{
+    background-color: green;
+}
